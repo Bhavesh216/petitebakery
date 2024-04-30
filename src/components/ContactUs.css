@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap");
+
+.contact{
+    height: 342px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 140px;
+}
+
+  .container-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-top: -4px;
+    background-color: #654222;
+    position: relative;
+    top: 140px;
+  }
+  
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    
+  }
+  
+  .box {
+    width: 45%;
+    display: flex;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 32px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .form-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 32px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .form-container:hover {
+    transform: translateY(-10px);
+  }
+  
+  .box i{
+    font-size: 50px;
+    margin-bottom: 16px;
+    color: #914a07;
+  }
+  
+  .box p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .form-container label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container button {
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    background-color: #914a07;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .box .text{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+  }
+  
