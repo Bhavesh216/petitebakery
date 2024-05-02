@@ -42,7 +42,17 @@ export const ShopContextProvider = (props) => {
     return totalAmount;
   };
 
-  const contextValue = { cartItems, addToCart, removeFromCart, getTotalCartAmount };
+  const getTotalBadgeAmount=()=>{
+    let badgeAmount = 0;
+    for (const item in cartItems) {
+      if (cartItems[item] > 0) {
+        badgeAmount += cartItems[item];
+      }
+    }
+    return badgeAmount;
+  }
+
+  const contextValue = { cartItems, addToCart, removeFromCart, getTotalCartAmount ,getTotalBadgeAmount};
 
   return (
     <ShopContext.Provider value={contextValue}>

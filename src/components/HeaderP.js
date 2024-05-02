@@ -1,10 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
 import { FaUser } from "react-icons/fa6";
 import { FaCartPlus } from "react-icons/fa6";
+import { ShopContext } from "./shopcontext";
+
 
 const HeaderP = () => {
+  const { getTotalBadgeAmount } = useContext(ShopContext);
+  const totalAmounTBadge = getTotalBadgeAmount();
   return (
     <header>
       <nav>
@@ -21,7 +25,7 @@ const HeaderP = () => {
           <div className="icons">
           <NavLink  className="icon-link" to="/login"> <FaUser /></NavLink>
           <NavLink className="icon-link cart-icon" to="/cart"><FaCartPlus />
-          <div class="badge">0</div>
+          <div class="badge">{totalAmounTBadge}</div>
           </NavLink>
           </div>
         </div>

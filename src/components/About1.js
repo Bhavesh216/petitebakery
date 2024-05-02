@@ -5,7 +5,7 @@ const About1 = () => {
   return (
     <div>
         <div className="about1 josefin-sans">
-        <div className="text">
+        <div className="text-box">
           <h3>The sweetest</h3>
           <h3>Heaven</h3>
           <h3>for</h3>

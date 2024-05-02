@@ -32,40 +32,40 @@ html,body{
   font-style: normal;
 }
 
-.text{
+.text-box{
     display: flex;
     width: 68%;
     flex-direction: column;
     margin-top: 140px;
 }
 
-.text h3{
+.text-box h3{
     font-size: 100px;
     font-weight: 400;
     z-index: 1;
     
 }
 
-.text :nth-child(1){
+.text-box :nth-child(1){
    color: white;
    display: flex;
    justify-content: flex-end;
    padding-right: 120px;
 }
 
-.text :nth-child(2){
+.text-box :nth-child(2){
     color: white;
    display: flex;
    /* justify-content: flex-end; */
 
 }
-.text :nth-child(3){
+.text-box :nth-child(3){
     color: white;
    display: flex;
    padding-left: 210px;
    /* justify-content: flex-end; */
 }
-.text :nth-child(4){
+.text-box :nth-child(4){
     color: white;
    display: flex;
    justify-content: flex-end;

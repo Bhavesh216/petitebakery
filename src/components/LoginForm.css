@@ -1,10 +1,13 @@
 .login-main{
-    background-color: #333;
+    /* background-color: #333; */
+    background-image: url(tart1.png);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
     height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
@@ -16,8 +19,6 @@
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
-    /* height: 100vh; */
-    
 }
 
 .wrapper h1 {
@@ -26,7 +27,6 @@
 }
 
 .wrapper .input-box {
-    margin-top: 150px;
     position: relative;
     width: 100%;
     height: 50px;
@@ -63,6 +63,10 @@
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }
 
 .remember-forgot label input {

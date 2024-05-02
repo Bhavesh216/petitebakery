@@ -8,6 +8,9 @@ import ContactUs from './ContactUs'
 import Login from './Login'
 import Cart from './Cart'
 import { ShopContextProvider } from './components/shopcontext'
+import RegisterForm from './components/RegisterForm'
+
+
 
 const App = () => {
   return (
@@ -22,6 +25,8 @@ const App = () => {
           <Route path='/contactus' element={<ContactUs/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/cart' element={<Cart/>}/>
+          <Route path ='/register' element={<RegisterForm/>}/>
+        
         </Routes>
       </Router>
       </ShopContextProvider> 

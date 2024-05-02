@@ -2,6 +2,8 @@
   display: flex;
   width: 100%;
   background-color: #543727;
+  min-height: 100vh;
+  justify-content: center;
 
 }
 .cart {
@@ -12,10 +14,11 @@
   position: relative;
   background-color: #543727;
   min-height: 100vh;
-  padding-top: 140px;
+  padding-top: 150px;
 }
 
 .cart-product {
+  padding-top: 20px;
   top: 0;
   position: relative;
 }
@@ -49,11 +52,15 @@
   flex-direction: column;
   gap: 5px;
 }
-
+.cartcolor{
+  color: white;
+}
 .price {
   font-size: 18px;
 }
-
+.subtotal{
+  color: white;
+}
 .countHandler {
   display: flex;
   align-items: center;
@@ -75,16 +82,20 @@
 }
 
 .checkout button {
-  width: 150px;
+  width: 160px;
   height: 50px;
-  background-color: rgb(19, 19, 19);
+  background-color: #b69576;
   color: white;
   border: none;
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+  color: black;
+  font-weight: 700;
 }
-
+.shopping-cart{
+  color:#d2b59a;
+}
 .checkout{
     position: sticky;
     top: 0px;
@@ -96,4 +107,21 @@
     gap: 10px;
     justify-content: center;
     font-size: 20px;
+}
+
+.empty-cart{
+  padding-top: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.empty-cart img{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 65%;
+  fill: #c7c7c7;
+  color: rgb(102, 102, 102);
 }

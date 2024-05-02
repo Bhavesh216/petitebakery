@@ -7,7 +7,7 @@ const ContactInfo = () => {
   return (
     <div className="box-container">
       {/* WhatsApp */}
-      <ContactBox icon="fa-brands fa-whatsapp" title="WhatsApp" text="082-596-487-265" />
+      <ContactBox  title="WhatsApp" icon="fa-brands fa-whatsapp" text="082-596-487-265" />
       {/* Call */}
       <ContactBox icon="fa-solid fa-phone" title="Call" text="0172-3498911" />
       {/* Email */}
